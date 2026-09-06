@@ -6,7 +6,7 @@ distribution infrastructure, not a Constellation codebase or Orbit workspace.
 Install Orbit with:
 
 ```sh
-brew tap constellation-lab-ai/tap
+brew tap constellation-works/tap
 brew install orbit
 ```
 
