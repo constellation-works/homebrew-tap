@@ -1,18 +1,18 @@
 class Orbit < Formula
   desc "Local-first agentic workflow engine for agent-driven software delivery"
   homepage "https://github.com/constellation-works/orbit"
-  version "0.28.3"
+  version "0.29.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/constellation-works/orbit/releases/download/v0.28.3/orbit-aarch64-apple-darwin.tar.gz"
-      sha256 "fe9f7dc43b329be813cc26c6d09e9a8c5cb61261a0c13d1b5ab42a1ef2d2b870"
+      url "https://github.com/constellation-works/orbit/releases/download/v0.29.0/orbit-aarch64-apple-darwin.tar.gz"
+      sha256 "0a7e0b3b84ae2a960ad3b7bf63c7528a310a0675c3911f2af3a6091d58317294"
     end
 
     on_intel do
-      url "https://github.com/constellation-works/orbit/releases/download/v0.28.3/orbit-x86_64-apple-darwin.tar.gz"
-      sha256 "54879b829658f5105b744db436856bd294ce9dccf19735afd0c1692c4f2964e0"
+      url "https://github.com/constellation-works/orbit/releases/download/v0.29.0/orbit-x86_64-apple-darwin.tar.gz"
+      sha256 "72a374986dab050e3dd9c55ba6091d9941d7040c55ef331254c74fb270ca135f"
     end
   end
 
